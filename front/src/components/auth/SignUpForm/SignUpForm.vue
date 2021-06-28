@@ -48,19 +48,19 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from "vue-class-component";
-import UserInterface from "@/components/User/UserInterface";
-import axios from "axios";
-import router from "../../../router";
-import { server } from "@/utils/helper";
+import { Options, Vue } from 'vue-class-component';
+import UserInterface from '@/components/User/UserInterface';
+import axios from 'axios';
+import router from '../../../router';
+import { server } from '@/utils/helper';
 
 @Options({
   data() {
     return {
       user: {
-        name: "",
-        email: "",
-        password: "",
+        name: '',
+        email: '',
+        password: '',
       } as UserInterface,
     };
   },
@@ -77,7 +77,7 @@ import { server } from "@/utils/helper";
     __submitToServer(data: UserInterface): void {
       axios
         .post(`${server.baseURL}/users/user`, data)
-        .then(() => router.push({ name: "Users" }));
+        .then(() => router.push({ name: 'Users' }));
     },
   },
 })

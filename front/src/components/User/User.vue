@@ -17,12 +17,12 @@
 </template>
 
 <script lang="ts">
-import axios from "axios";
-import { Options, Vue } from "vue-class-component";
-import router from "../../router";
-import { server } from "@/utils/helper";
+import axios from 'axios';
+import { Options, Vue } from 'vue-class-component';
+import router from '../../router';
+import { server } from '@/utils/helper';
 
-import UserInterface from "./UserInterface";
+import UserInterface from './UserInterface';
 
 @Options({
   data() {

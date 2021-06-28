@@ -30,9 +30,9 @@
 </template>
 
 <script lang="ts">
-import axios from "axios";
-import { Options, Vue } from "vue-class-component";
-import { server } from "@/utils/helper";
+import axios from 'axios';
+import { Options, Vue } from 'vue-class-component';
+import { server } from '@/utils/helper';
 
 @Options({
   data() {

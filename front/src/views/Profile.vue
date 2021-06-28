@@ -5,8 +5,8 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from "vue-class-component";
-import User from "@/components/User/User.vue";
+import { Options, Vue } from 'vue-class-component';
+import User from '@/components/User/User.vue';
 
 @Options({
   components: {
